@@ -1,0 +1,16 @@
+remona, a symbolic remote monitor/debugger for 8-bit computers
+By Matt Sarnoff (msarnoff.org)
+==============================================================
+
+remona is mainly meant to be a tool for easy assembly language development
+on 8-bit computers. It will be able to communicate with a remote machine
+over a serial cable, send it code, set breakpoints, read memory and register
+values, etc.
+
+It will initially target the Motorola 6809 processor (since I am currently
+building my own 6809-based system) but it will be easily extensible.
+
+I thought writing a remote debugger from scratch would be more fun than just
+implementing the GDB remote protocol. :-P
+
+More coming soon...
